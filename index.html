@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Birthday Greetings | Love</title>
+</head>
+<body>
+    <audio src="HBD.mp3" id="background-music" loop></audio>
+
+    <div id="coverpage">
+        <a class = "btn" onclick="showHomePage()">Start</a>
+    </div>
+
+    <div id="homepage">
+        <div class="video-container">
+            <video autoplay muted loop playsinline>
+            <source src="Bg_Bd.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class = "greetings">
+            <div>
+                <a class = "btn" onclick="showLetterPage()">Click</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="letterpage">
+        <div class="letter">
+            <img src="Letter.png" alt="">
+        </div>
+        <a class = "btn" onclick="showPicturePage()">Next</a>
+    </div>
+
+    <div id="picturepage">
+        <div class="photo">
+            <div class="photo-vid" id="photo">
+                <img class="slide" src="pic_w_bb.jpg" alt="">
+            </div>
+            <div class="message-box">
+                <p>Hi love, Happy Birthday and Happy 28th Monthsary to us,
+                    wish you all the best and keep on doing your best. I 
+                    know your hardwork will pay off someday. I would like to apologize
+                    for this is my only gift for your birthday. I may not afford to 
+                    give you expensive gifts right now but I promise I'll do my best 
+                    para makabawi nimo. I always pray to God for our success
+                    in the future and when that day comes, I hope we're still together.
+                    I hope you appreciate my birthday present for you love. ILOVEYOUSOSOMUCHLOVE&#128536&#10084!!
+                </p>
+            </div>
+        </div>
+        <a class = "btn" onclick="showHomePage()">Home</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
